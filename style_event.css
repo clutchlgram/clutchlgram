@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@500&family=Allan&family=Arima+Madurai&family=Inconsolata&family=Overlock&display=swap");
+.navbar-brand {
+    font-family: "Overlock", cursive;
+}
+
+.navbar-nav {
+    font-family: "Overlock", cursive;
+}
+
+.jumbotron {
+    padding-top: 6rem;
+    background-image: url("img/sea.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.jumbotron .display-4 {
+    color: seashell;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    font-size: 40px;
+}
+
+.jumbotron .display-4 span {
+    font-weight: 500;
+}
+
+section {
+    padding-top: 5rem;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #fff !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #fff;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+
+#event {
+    font-family: "Overlock", cursive;
+    color: #8a2ff1;
+}
+
+.footer-content {
+    font-family: "Overlock", cursive;
+    color: seashell;
+}
+
+.footer-content .fab {
+    color: seashell;
+}

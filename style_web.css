@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@500&family=Allan&family=Arima+Madurai&family=Inconsolata&family=Overlock&display=swap");
+.navbar-brand {
+    font-family: "Overlock", cursive;
+}
+
+.navbar-nav {
+    font-family: "Overlock", cursive;
+}
+
+.jumbotron {
+    padding-top: 6rem;
+    background-image: url("img/sea.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.jumbotron .display-4 {
+    color: seashell;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    font-size: 40px;
+}
+
+.jumbotron .display-4 span {
+    font-weight: 500;
+}
+
+.jumbotron .btn {
+    font-family: "Overlock", cursive;
+}
+
+
+/* Utility */
+
+.kotak {
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.tombol {
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(140deg, #9fd4f7, #d094e7);
+}
+
+#about {
+    font-family: "Overlock", cursive;
+    background-color: #fff;
+}
+
+#crafting {
+    font-family: "Overlock", cursive;
+}
+
+.list-group {
+    padding-top: 1rem;
+}
+
+#crafting {
+    background-color: #eef3fe;
+}
+
+#contact {
+    font-family: "Arima Madurai", cursive;
+    background-color: #fff;
+}
+
+section {
+    padding-top: 5rem;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #fff !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #fff;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+
+.list-group {
+    padding-top: 1rem;
+}
+
+.footer-content {
+    font-family: "Overlock", cursive;
+    color: seashell;
+}
+
+.footer-content .fab {
+    color: seashell;
+}
